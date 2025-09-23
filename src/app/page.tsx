@@ -60,8 +60,8 @@ const Page = () => {
               type= "checkbox"
               checked={task.completed}
               onChange={() => handleToggleTask(task.id)}
-              className='cursor-pointer'
-            />
+              className='cursor-pointer h-5 w-5'
+            /> 
             <span className={task.completed ? 'line-through text-gray-500 ml-2' : 'ml-2'}>{task.title}</span>
           </div>
         ))}
