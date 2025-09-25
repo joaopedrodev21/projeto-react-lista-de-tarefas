@@ -28,7 +28,7 @@ const Page = () => {
 
   return(
     <div className='w-full max-w-xl mx-auto bg-gray-900 p-4 rounded-lg mt-10'>
-      <h1 className='text-3xl font-bold p-4'>Lista de Tarefas</h1>
+      <h1 className='text-3xl font-bold p-4'>Projeto Lista de Tarefas</h1>
       <div className='flex flex-col sm:flex-row mb-4 gap-2'>
         <input
           className='border p-2 flex-1 w-full sm:w-auto'        
